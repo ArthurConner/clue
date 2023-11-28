@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "clue"
+  site-url: "https://ArthurConner.github.io/clue"
+  description: "Interface for playing clue"
+  repo-branch: main
+  repo-url: "https://github.com/ArthurConner/clue"
