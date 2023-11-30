@@ -1,0 +1,23 @@
+struct ClueItems:
+
+    var weapons: [[DType.string]]
+    
+    fn __init__(inout self):
+    
+        var wp: [[DType.string]] = []
+        
+        wp.append(["Knife","cyan","🔪","Knife"])
+        wp.append(["Revolver","cyan","🔫","Gun"])
+        wp.append(["Rope","cyan","🪢","Rope"])
+        wp.append(["Wrench","cyan","🔧","Wrench"])
+        wp.append(["Candlestick","cyan","🕯️","Candle"])
+        wp.append(["Lead Pipe","cyan","🪠","Pipe"])
+        
+        self.weapons = wp
+
+
+def main():
+    print("hello world")
+    for x in range(9, 0, -3):
+        print(x)
+    let items = ClueItems()
