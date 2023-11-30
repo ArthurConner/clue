@@ -37,7 +37,7 @@ def cardShort(info):
 people = []
 people.append(["Miss Scarlet","red",u"\U0001f460","Scar."])
 people.append(["Colonel Mustard","yellow",u"\U0001F9D0","Must."])
-people.append([" Mrs. White","white",u"\u2661"," White"])
+people.append([" Mrs. White","white",u"\u2661","White"])
 people.append(["Mr. Green","green",u"\U0001F409","Green"])
 people.append(["Professor Plum","magenta",u"\U0001F346","Plum "])
 people.append(["Mrs. Peacock","blue",u"\U0001F99A","Peac."])
@@ -51,6 +51,7 @@ weapons.append(["Rope","cyan",emoji.emojize(":knot:"),"Rope"])
 weapons.append(["Wrench","cyan",emoji.emojize(":wrench:"),"Wrench"])
 weapons.append(["Candlestick","cyan",emoji.emojize(":candle:"),"Candle"])
 weapons.append(["Lead Pipe","cyan",emoji.emojize(":plunger:"),"Pipe"])
+weapons
 
 # %% ../nbs/00_core.ipynb 10
 rooms = []
@@ -217,6 +218,7 @@ def location(playerID,game):
 def getPlay(pc,game, moves):
     
     ploc = game[-1]
+    
     r2 = location(pc,game)
     
     person = people[pc-1]
